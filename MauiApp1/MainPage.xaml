@@ -42,9 +42,12 @@
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid Padding="0,5">
-                            <Border>
+                            <Border Padding="10">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="10"/>
+                                </Border.StrokeShape>
                                 <Label Text="{Binding .}"
-                                       FontSize="24"/>
+                                        FontSize="24"/>
                             </Border>
                         </Grid>
                     </SwipeView>
