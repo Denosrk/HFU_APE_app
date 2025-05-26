@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\sqlitetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\sqlitetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\httpclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\httpclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqliteTests.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SqliteTests.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\SqliteTests.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SqliteTests.cs",
+              "RelativeToolTip": "MLZ2025.Core.Tests\\SqliteTests.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:13:07.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MLZ2025App.csproj",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MLZ2025App.csproj",
+              "RelativeDocumentMoniker": "MLZ2025App\\MLZ2025App.csproj",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MLZ2025App.csproj",
+              "RelativeToolTip": "MLZ2025App\\MLZ2025App.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-26T19:03:51.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpClientTests.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpClientTests.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\HttpClientTests.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpClientTests.cs",
+              "RelativeToolTip": "MLZ2025.Core.Tests\\HttpClientTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:44:14.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MLZ2025App\\MauiProgram.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
+              "RelativeToolTip": "MLZ2025App\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:52:28.842Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
