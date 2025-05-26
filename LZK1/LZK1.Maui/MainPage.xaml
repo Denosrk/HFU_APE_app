@@ -26,10 +26,16 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me"
+                Text="Click me for incrementing"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button
+                Text="Click me for decrementing"
+                Clicked="OnDecrementClicked"
+                HorizontalOptions="Fill" />
+
         </VerticalStackLayout>
     </ScrollView>
 

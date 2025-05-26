@@ -23,4 +23,12 @@ public partial class MainPage : ContentPage
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
+    private async void OnDecrementClicked(object? sender, EventArgs e)
+    {
+        if (await _counterService.TryDecrement())
+        {
+            CounterBtn.Text = _counterService.GetLabel();
+            SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+    }
 }

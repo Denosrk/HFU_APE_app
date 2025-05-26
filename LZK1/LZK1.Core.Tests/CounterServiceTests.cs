@@ -26,7 +26,10 @@ public class CounterServiceTests : TestsBase
     [TestCase(false)]
     public async Task TestTryIncrement(bool askResult)
     {
-        var testDialogService = new TestDialogService();
+        var testDialogService = new TestDialogService
+        {
+            AskResult = askResult
+        };
 
         var provider = CreateServiceCollection()
             .AddSingleton<IDialogService>(testDialogService)
@@ -39,6 +42,28 @@ public class CounterServiceTests : TestsBase
         Assert.That(incrementResult, Is.EqualTo(askResult));
         Assert.That(testDialogService.LastMessage, Is.EqualTo("Are you sure you want to increment?"));
     }
+
+    [TestCase(true)]
+    [TestCase(false)]
+    public async Task TestTryDecrement(bool askResult)
+    {
+        var testDialogService = new TestDialogService
+        {
+            AskResult = askResult
+        };
+
+        var provider = CreateServiceCollection()
+            .AddSingleton<IDialogService>(testDialogService)
+            .BuildServiceProvider();
+
+        var counterService = provider.GetRequiredService<ICounterService>();
+
+        var result = await counterService.TryDecrement();
+
+        Assert.That(result, Is.EqualTo(askResult));
+        Assert.That(testDialogService.LastMessage, Is.EqualTo("Are you sure you want to decrement?"));
+    }
+
 
     [Test]
     public async Task TestTryIncrementConfirmationMessage()
@@ -59,20 +84,28 @@ public class CounterServiceTests : TestsBase
     [Test]
     public void TestGetLabelOnDecrement()
     {
-        Assert.Inconclusive("This test is not implemented.");
-    }
+        var provider = CreateProvider();
+        var counterService = provider.GetRequiredService<ICounterService>();
 
-    [TestCase(true)]
-    [TestCase(false)]
-    public async Task TestTryDecrement(bool askResult)
-    {
-        Assert.Inconclusive("This test is not implemented.");
+        counterService.Increment();
+        counterService.Increment();
+        Assert.That(counterService.GetLabel(), Is.EqualTo("Clicked 2 times"));
     }
 
     [Test]
     public async Task TestTryDecrementConfirmationMessage()
     {
-        Assert.Inconclusive("This test is not implemented.");
+        var testDialogService = new TestDialogService();
+
+        var provider = CreateServiceCollection()
+            .AddSingleton<IDialogService>(testDialogService)
+            .BuildServiceProvider();
+
+        var counterService = provider.GetRequiredService<ICounterService>();
+
+        await counterService.TryDecrement();
+
+        Assert.That(testDialogService.LastMessage, Is.EqualTo("Are you sure you want to decrement?"));
     }
 
     protected override IServiceCollection AddServices(ServiceCollection serviceCollection)
