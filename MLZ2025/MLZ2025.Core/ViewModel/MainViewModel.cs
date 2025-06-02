@@ -12,22 +12,31 @@ public partial class MainViewModel : ObservableObject
     private readonly IConnectivity _connectivity;
     private readonly IDialogService _dialogService;
     private readonly DataAccess<DatabaseAddress> _dataAccess;
+    private readonly IHttpServerAccess _httpServerAccess;
 
     // TODO Use a custom object instead.
     [ObservableProperty] private ObservableCollection<string> _items;
 
     [ObservableProperty] private string _text = "Something";
 
-    public MainViewModel(IConnectivity connectivity, IDialogService dialogService, DataAccess<DatabaseAddress> dataAccess)
+    public MainViewModel(IConnectivity connectivity, IDialogService dialogService, DataAccess<DatabaseAddress> dataAccess, IHttpServerAccess httpServerAccess)
     {
         _connectivity = connectivity;
         _dialogService = dialogService;
         _dataAccess = dataAccess;
+        _httpServerAccess = httpServerAccess;
 
         // TODO Map all properties from the address to the UI
         var firstNames = _dataAccess.Table().Select(address => address.FirstName).ToList();
 
-        _items = new ObservableCollection<string>(firstNames);
+        if (firstNames.Count == 0)
+        {
+            // TODO Stop using the GetAwaiter().GetResult() pattern.
+            var serverAddresses = _httpServerAccess.GetAddressesAsync().GetAwaiter().GetResult();
+            firstNames = serverAddresses.Select(address => address.FirstName).ToList();
+        }
+
+        _items = new ObservableCollection<string>((IEnumerable<string>)firstNames);
     }
 
     [RelayCommand]

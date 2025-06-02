@@ -7,7 +7,7 @@ namespace MLZ2025.Core.ViewModel;
 public partial class DetailViewModel : ObservableObject
 {
     [ObservableProperty]
-    private string _text = "";
+    private string text = "";
 
     [RelayCommand]
     async Task GoBackAsync()

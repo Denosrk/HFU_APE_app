@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations.Schema;
+using SQLite;
 
 namespace MLZ2025.Core.Model;
 
@@ -11,12 +11,4 @@ public class DatabaseAddress
     public string FirstName { get; set; } = "";
 
     public string LastName { get; set; } = "";
-}
-
-public class PrimaryKeyAttribute : Attribute
-{
-}
-
-public class AutoIncrementAttribute : Attribute
-{
 }

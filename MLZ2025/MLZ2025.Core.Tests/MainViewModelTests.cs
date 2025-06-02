@@ -1,3 +1,5 @@
+using MLZ2025.Core.Model;
+using MLZ2025.Core.Services;
 using MLZ2025.Core.ViewModel;
 
 namespace MLZ2025.Core.Tests;
@@ -16,6 +18,43 @@ public class MainViewModelTests : TestsBase
         viewModel.AddCommand.Execute(null);
 
         Assert.That(_testDialogService.LastMessage, Is.EqualTo("Please enter a text"));
+    }
+
+    [Test]
+    public void TestInitializedWithExistingData()
+    {
+        var serviceProvider = CreateServiceCollection()
+            .AddTransient<IHttpServerAccess, TestHttpServerAccess>()
+            .BuildServiceProvider();
+        using var dataAccess = serviceProvider.GetRequiredService<DataAccess<DatabaseAddress>>();
+
+        var address = new DatabaseAddress { FirstName = "Bob", LastName = "Last Name" };
+        List<string> expectedItems = [address.FirstName];
+
+        dataAccess.DeleteAll();
+        dataAccess.Insert(address);
+
+        var viewModel = serviceProvider.GetRequiredService<MainViewModel>();
+
+        Assert.That(viewModel.Items, Is.EquivalentTo(expectedItems));
+    }
+
+    [Test]
+    public void TestInitializedWithNoExistingData()
+    {
+        var serviceProvider = CreateServiceCollection()
+            .AddTransient<IHttpServerAccess, TestHttpServerAccess>()
+            .BuildServiceProvider();
+        using var dataAccess = serviceProvider.GetRequiredService<DataAccess<DatabaseAddress>>();
+
+        var expectedAddress = new DatabaseAddress { FirstName = "Max", LastName = "Mustermann" };
+        List<string> expectedItems = [expectedAddress.FirstName];
+
+        dataAccess.DeleteAll();
+
+        var viewModel = serviceProvider.GetRequiredService<MainViewModel>();
+
+        Assert.That(viewModel.Items, Is.EquivalentTo(expectedItems));
     }
 
     [Test]
@@ -122,5 +161,20 @@ public class MainViewModelTests : TestsBase
 
         Assert.That(_testDialogService.LastMessage, Is.EqualTo(""));
         Assert.That(viewModel.Text, Is.EqualTo(item));
+    }
+
+    private class TestHttpServerAccess : IHttpServerAccess
+    {
+        public override Task<IList<ServerAddress>> GetAddressesAsync()
+        {
+            IList<ServerAddress> result = [new()
+            {
+                Id = "1",
+                FirstName = "Max",
+                LastName = "Mustermann"
+            }];
+
+            return Task.FromResult(result);
+        }
     }
 }

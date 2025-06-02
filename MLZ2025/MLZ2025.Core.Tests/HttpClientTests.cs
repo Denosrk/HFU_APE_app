@@ -1,4 +1,6 @@
 using System.Net;
+using MLZ2025.Core.Model;
+using MLZ2025.Core.Services;
 using Newtonsoft.Json;
 
 namespace MLZ2025.Core.Tests;
@@ -10,48 +12,11 @@ public class HttpClientTests : TestsBase
     public async Task TestGetAddresses()
     {
         var serviceProvider = CreateServiceProvider();
-        var httpClient = serviceProvider.GetRequiredService<HttpClient>();
-
-        httpClient.BaseAddress = new Uri("http://localhost:3000");
-
-        var result = await httpClient.GetAsync("/addresses/");
-
-        Assert.That(result.StatusCode, Is.EqualTo(HttpStatusCode.OK));
-        Assert.That(result.IsSuccessStatusCode, Is.True);
-
-        var stringResult = await result.Content.ReadAsStringAsync();
-
-        var addresses = JsonConvert.DeserializeObject<IList<ServerAddress>>(stringResult);
+        var serverAccess = serviceProvider.GetRequiredService<IHttpServerAccess>();
+        var addresses = await serverAccess.GetAddressesAsync();
 
         Assert.That(addresses, Is.Not.Null);
         Assert.That(addresses.Count, Is.EqualTo(2));
-    }
-}
-
-public class HttpServerAccess
-{
-    private readonly HttpClient _client;
-
-    public HttpServerAccess(HttpClient client)
-    {
-        _client = client;
-        _client.BaseAddress = new Uri("http://localhost:3000");
-    }
-
-    public async Task<IList<ServerAddress>> GetAddressesAsync()
-    {
-        var response = await _client.GetAsync("/addresses/");
-        response.EnsureSuccessStatusCode();
-
-        var content = await response.Content.ReadAsStringAsync();
-        var result = JsonConvert.DeserializeObject<IList<ServerAddress>>(content);
-
-        if (result == null)
-        {
-            throw new InvalidOperationException("Could not get addresses from server.");
-        }
-
-        return result;
     }
 }
 
