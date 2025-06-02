@@ -16,6 +16,7 @@ public class TestsBase
             .AddCoreServices()
             .AddSingleton<IDialogService>(_testDialogService)
             .AddSingleton<IConnectivity>(_testConnectivity)
+            .AddSingleton(new DataAccessSettings() { Filename = "test.db" })
             .BuildServiceProvider();
     }
 

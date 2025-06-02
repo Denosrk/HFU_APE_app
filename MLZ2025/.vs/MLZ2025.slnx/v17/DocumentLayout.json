@@ -3,20 +3,71 @@
   "WorkspaceRootPath": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\coreservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\coreservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\model\\databaseaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\model\\databaseaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\model\\serveraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\model\\serveraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\views\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\views\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\testsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\testsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\sqlitetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\sqlitetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\mainviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\mainviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\detailviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\detailviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\httpclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\httpclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025.core\\viewmodel\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\viewmodel\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\APPEntwicklung\\HFU_APE_app\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\appentwicklung\\hfu_ape_app\\mlz2025\\mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +77,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 22,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetailViewModel.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\DetailViewModel.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\ViewModel\\DetailViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:27:39.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Views\\App.xaml.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\App.xaml.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\Views\\App.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:32:32.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoreServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "RelativeToolTip": "MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:30:40.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDialogService.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\IDialogService.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\IDialogService.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\IDialogService.cs",
+              "RelativeToolTip": "MLZ2025.Core\\Services\\IDialogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:30:38.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DialogService.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DialogService.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\DialogService.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DialogService.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\Services\\DialogService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:30:37.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetailViewModelTests.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\DetailViewModelTests.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\DetailViewModelTests.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\DetailViewModelTests.cs",
+              "RelativeToolTip": "MLZ2025.Core.Tests\\DetailViewModelTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:30:29.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestsBase.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\TestsBase.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\TestsBase.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\TestsBase.cs",
+              "RelativeToolTip": "MLZ2025.Core.Tests\\TestsBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:24:59.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainViewModelTests.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\MainViewModelTests.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\MainViewModelTests.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\MainViewModelTests.cs",
+              "RelativeToolTip": "MLZ2025.Core.Tests\\MainViewModelTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:57:17.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\MainViewModel.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\ViewModel\\MainViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:56:54.016Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -83,19 +251,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DataAccess.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\DataAccess.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DataAccess.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\Services\\DataAccess.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:56:21.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerAddress.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\ServerAddress.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Model\\ServerAddress.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\ServerAddress.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\Model\\ServerAddress.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:13:39.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseAddress.cs",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\DatabaseAddress.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Model\\DatabaseAddress.cs",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\DatabaseAddress.cs*",
+              "RelativeToolTip": "MLZ2025.Core\\Model\\DatabaseAddress.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:13:20.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-26T20:01:38.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SqliteTests.cs",
               "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SqliteTests.cs",
               "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\SqliteTests.cs",
-              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SqliteTests.cs",
-              "RelativeToolTip": "MLZ2025.Core.Tests\\SqliteTests.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAsAAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SqliteTests.cs*",
+              "RelativeToolTip": "MLZ2025.Core.Tests\\SqliteTests.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T19:13:07.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "MLZ2025App.csproj",
               "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MLZ2025App.csproj",
               "RelativeDocumentMoniker": "MLZ2025App\\MLZ2025App.csproj",
@@ -107,19 +327,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "HttpClientTests.cs",
               "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpClientTests.cs",
               "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\HttpClientTests.cs",
               "ToolTip": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpClientTests.cs",
               "RelativeToolTip": "MLZ2025.Core.Tests\\HttpClientTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:44:14.719Z"
+              "WhenOpened": "2025-05-26T18:44:14.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\APPEntwicklung\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MLZ2025App\\MauiProgram.cs",
@@ -127,7 +348,8 @@
               "RelativeToolTip": "MLZ2025App\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:52:28.842Z"
+              "WhenOpened": "2025-05-26T17:52:28.842Z",
+              "EditorCaption": ""
             }
           ]
         }

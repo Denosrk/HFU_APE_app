@@ -3,13 +3,6 @@ using Newtonsoft.Json;
 
 namespace MLZ2025.Core.Tests;
 
-public class Address
-{
-    public required string FirstName { get; set; }
-    public required string LastName { get; set; }
-    public required string Id { get; set; }
-}
-
 [TestFixture]
 public class HttpClientTests : TestsBase
 {
@@ -28,7 +21,7 @@ public class HttpClientTests : TestsBase
 
         var stringResult = await result.Content.ReadAsStringAsync();
 
-        var addresses = JsonConvert.DeserializeObject<IList<Address>>(stringResult);
+        var addresses = JsonConvert.DeserializeObject<IList<ServerAddress>>(stringResult);
 
         Assert.That(addresses, Is.Not.Null);
         Assert.That(addresses.Count, Is.EqualTo(2));
@@ -45,13 +38,13 @@ public class HttpServerAccess
         _client.BaseAddress = new Uri("http://localhost:3000");
     }
 
-    public async Task<IList<Address>> GetAddressesAsync()
+    public async Task<IList<ServerAddress>> GetAddressesAsync()
     {
         var response = await _client.GetAsync("/addresses/");
         response.EnsureSuccessStatusCode();
 
         var content = await response.Content.ReadAsStringAsync();
-        var result = JsonConvert.DeserializeObject<IList<Address>>(content);
+        var result = JsonConvert.DeserializeObject<IList<ServerAddress>>(content);
 
         if (result == null)
         {

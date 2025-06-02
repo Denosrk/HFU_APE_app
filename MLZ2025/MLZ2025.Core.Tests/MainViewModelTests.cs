@@ -1,4 +1,4 @@
-﻿using MLZ2025.Core.ViewModel;
+using MLZ2025.Core.ViewModel;
 
 namespace MLZ2025.Core.Tests;
 
