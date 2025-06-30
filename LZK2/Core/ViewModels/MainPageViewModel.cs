@@ -11,6 +11,7 @@ public partial class MainPageViewModel : ViewModelBase
     private string _firstName = string.Empty;
     private string _lastName = string.Empty;
     private int _age;
+    private string _plz = string.Empty;
     private Person? _selectedItem;
 
     public MainPageViewModel()
@@ -18,9 +19,12 @@ public partial class MainPageViewModel : ViewModelBase
         // throw new InvalidOperationException("This constructor is for detecting binding in XAML and should never be called.");
     }
 
-    public MainPageViewModel(ILocalStorage localStorage)
+    private readonly IPersonService _personService;
+
+    public MainPageViewModel(ILocalStorage localStorage, IPersonService personService)
     {
         _localStorage = localStorage ?? throw new ArgumentNullException(nameof(localStorage));
+        _personService = personService ?? throw new ArgumentNullException(nameof(PersonService));
     }
 
     public string FirstName
@@ -55,6 +59,12 @@ public partial class MainPageViewModel : ViewModelBase
         set => SetField(ref _age, value);
     }
 
+    public string Plz
+    {
+        get => _plz;
+        set => SetField(ref _plz, value);
+    }
+
     public bool IsReady => SelectedItem != null;
 
     public ObservableCollection<Person> Items { get; private set; } = new();
@@ -71,12 +81,14 @@ public partial class MainPageViewModel : ViewModelBase
                     FirstName = value.FirstName;
                     LastName = value.LastName;
                     Age = value.Age;
+                    Plz = value.Plz;
                 }
                 else
                 {
                     FirstName = string.Empty;
                     LastName = string.Empty;
                     Age = 0;
+                    Plz = string.Empty;
                 }
             }
         }
@@ -94,14 +106,7 @@ public partial class MainPageViewModel : ViewModelBase
         {
             try
             {
-                await _localStorage.Initialize();
-
-                var people = await _localStorage.LoadAll();
-
-                if (people.Count == 0)
-                {
-                    people.Add(new Person());
-                }
+                var people = await _personService.Load();
 
                 foreach (var person in people)
                 {
@@ -132,8 +137,9 @@ public partial class MainPageViewModel : ViewModelBase
         model.FirstName = FirstName;
         model.LastName = LastName;
         model.Age = Age;
+        model.Plz = Plz;
 
-        await _localStorage.Save(model);
+        await _personService.Save(model);
     }
 
     public void Add()

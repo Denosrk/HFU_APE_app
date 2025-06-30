@@ -43,24 +43,29 @@
             <Entry Text="{Binding LastName, Mode=TwoWay}"
                    Placeholder="Please enter your last name" />
 
+            <Entry Text="{Binding Plz, Mode=TwoWay}"
+                   Placeholder="Please enter your postal code" />
+
+
             <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}" HeightRequest="400">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="10">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="250" />
-                                    <ColumnDefinition Width="250" />
-                                    <ColumnDefinition Width="20" />
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0"
-                                       Text="{Binding FirstName}" />
-                                <Label Grid.Column="1"
-                                       Text="{Binding LastName}" />
-                                <Label Grid.Column="2"
-                                       Text="{Binding Age}"
-                                       VerticalOptions="End" />
-                            </Grid>
+                            <Frame BorderColor="#FF8000" Padding="5" Margin="2">
+                                <Grid Padding="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="80" />
+                                        <ColumnDefinition Width="80" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding FirstName}" />
+                                    <Label Grid.Column="1" Text="{Binding LastName}" />
+                                    <Label Grid.Column="2" Text="{Binding Age}" TextColor="Red" />
+                                    <Label Grid.Column="3" Text="{Binding Plz}" />
+                                </Grid>
+                            </Frame>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -75,6 +80,7 @@
 
                 <Button
                     Text="Increment Age"
+                    Style="{StaticResource OrangeButton}"
                     SemanticProperties.Hint="Increments the count"
                     Clicked="OnCounterClicked"
                     HorizontalOptions="End" />
@@ -82,6 +88,7 @@
                 <Button
                     Grid.Column="1"
                     Text="Add"
+                    Style="{StaticResource OrangeButton}"
                     SemanticProperties.Hint="Adds a new item"
                     Clicked="OnAddClicked"
                     IsEnabled="{Binding IsReady}"
@@ -90,6 +97,7 @@
                 <Button
                     Grid.Column="2"
                     Text="Save"
+                    Style="{StaticResource OrangeButton}"
                     SemanticProperties.Hint="Saves all data"
                     Clicked="OnSaveClicked"
                     IsEnabled="{Binding IsReady}"
