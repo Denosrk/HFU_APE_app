@@ -1,21 +1,21 @@
 using MLZ2025.Core.Model;
 using Newtonsoft.Json;
 
-namespace MLZ2025.Core.Services;
+namespace MLZ2025.Shared.Services;
 
 public class HttpServerAccess : IHttpServerAccess
 {
-    private readonly HttpClient client;
+    private readonly HttpClient _client;
 
     public HttpServerAccess(HttpClient client)
     {
-        this.client = client;
-        this.client.BaseAddress = new Uri("http://localhost:3000");
+        _client = client;
+        _client.BaseAddress = new Uri("http://localhost:3000");
     }
 
-    public override async Task<IList<ServerAddress>> GetAddressesAsync()
+    public async Task<IList<ServerAddress>> GetAddressesAsync()
     {
-        var response = await client.GetAsync("/addresses/");
+        var response = await _client.GetAsync("/addresses/");
         response.EnsureSuccessStatusCode();
 
         var content = await response.Content.ReadAsStringAsync();

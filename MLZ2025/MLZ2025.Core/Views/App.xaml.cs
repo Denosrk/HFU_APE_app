@@ -1,3 +1,6 @@
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Controls;
+
 namespace MLZ2025;
 
 public partial class App : Application

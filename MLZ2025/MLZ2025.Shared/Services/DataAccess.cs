@@ -1,6 +1,6 @@
 using SQLite;
 
-namespace MLZ2025.Core.Services;
+namespace MLZ2025.Shared.Services;
 
 public class DataAccessSettings
 {
@@ -17,17 +17,17 @@ public class DataAccess<T> : IDisposable
             Directory.CreateDirectory(DatabaseFolder);
         }
 
-        var options = new SQLiteConnectionString(Path.Join(DatabaseFolder, settings.Filename));
+        var options = new SQLiteConnectionString(Path.Join(DatabaseFolder, settings.Filename), true);
 
-        connection = new SQLiteConnection(options);
+        _connection = new SQLiteConnection(options);
 
-        var tableExists = connection.TableMappings.Any(m =>
+        var tableExists = _connection.TableMappings.Any(m =>
             m.TableName.Equals(nameof(T), StringComparison.InvariantCultureIgnoreCase)
         );
 
         if (!tableExists)
         {
-            connection.CreateTable<T>();
+            _connection.CreateTable<T>();
         }
     }
 
@@ -42,27 +42,27 @@ public class DataAccess<T> : IDisposable
     {
         if (disposing)
         {
-            connection.Dispose();
+            _connection.Dispose();
         }
     }
 
     public void DeleteAll()
     {
-        connection.DeleteAll<T>();
+        _connection.DeleteAll<T>();
     }
 
     public TableQuery<T> Table()
     {
-        return connection.Table<T>();
+        return _connection.Table<T>();
     }
 
     public int Insert(T item)
     {
-        return connection.Insert(item);
+        return _connection.Insert(item);
     }
 
     private static readonly string DatabaseFolder =
         Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MLZ2025");
 
-    private readonly SQLiteConnection connection;
+    private readonly SQLiteConnection _connection;
 }

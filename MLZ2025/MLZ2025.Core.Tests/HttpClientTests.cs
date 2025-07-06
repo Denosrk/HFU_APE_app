@@ -1,6 +1,7 @@
 using System.Net;
 using MLZ2025.Core.Model;
 using MLZ2025.Core.Services;
+using MLZ2025.Shared.Services;
 using Newtonsoft.Json;
 
 namespace MLZ2025.Core.Tests;

@@ -1,3 +1,5 @@
+using Microsoft.Maui.Controls;
+
 namespace MLZ2025.Core.Services;
 
 public class DialogService : IDialogService
